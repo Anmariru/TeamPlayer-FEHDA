@@ -9,6 +9,68 @@ let ourTeam = {
         day: 08,
       },
       location: "Vienna",
+			favourites: {
+				favBooks: [
+						{
+								title: "Eragon - Das Vermächtnis des Drachenreiters",
+								author: "Christopher Paolini",
+								year: 2003,
+								isNewerThan2000: true,
+								characters: ["Eragon", "Saphira", "Arya", "Brom"],
+						},
+						{
+								title: "Tintenherz",
+								author: "Cornelia Funke",
+								year: 2004,
+								isNewerThan: true,
+								characters: ["Meggie", "Mo", "Elinor", "Gwin"],
+						},
+				],
+				favMovies: [
+					{
+						title: "My Neighbor Totoro",
+						year: 1988,
+						rating: 8.1,
+						description: "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
+						directors: ["Hayao Miyazaki"],
+						writers: ["Hayao Miyazaki"],
+						stars: ["Hitoshi Takagi", "Noriko Hidaka", "Chika Sakamoto"],
+						genre: ["Fantasy", "Comedy", "Family"],
+					},
+					{
+						title: "Naruto",
+						year: 2002,
+						rating: 8.4,
+						description: "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.",
+						directors:["Osamu Kobayashi"],
+						writers: ["Masashi Kishimoto", "Chie Nakamura"],
+						stars: ["Junko Takeuchi", "Chie Nakamura", "Kazuhiko Inoue"],
+						genre: ["Adventure", "Animation	", "Action"],
+					},
+					{
+						title:"The dark Knight rises",
+						year: 2012,
+						rating: 8.4,
+						description: "Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane.",
+						directors: ["Christopher Nolan"],
+						writers: ["Jonathan Nolan", "Christopher Nolan", "David S. Goyer"],
+						stars: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+						genre: ["Action", "Crime", "Drama"],
+					},
+					{
+						title: "Inglorious Basterds",
+						year: 2009,
+						rating: 8.4,
+						description: "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+						directors: ["Quentin Tarantino"],
+						writers: ["Quentin Tarantino"],
+						stars: ["Brad Pitt", "Diane Kruger", "Melanie Laurent"],
+						genre: ["Action", "Drama", "War"],
+						
+					}
+					
+				]
+			}
     },
     {
       name: "Eroll",
