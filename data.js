@@ -1,9 +1,12 @@
 let ourTeam = {
 	name: "FEDHA",
-	members: { name: "Franzi", year: 1994, month: 05, day: 08, location: "Vienna"},
-	, "Eroll", "Danijel", "Heidelinde", "Anna"],
-
-	
+	members: [
+	{name: "Franzi", year: 1994, month: 05, day: 08, location: "Vienna"},
+	{name: "Eroll", year: 1800, month: 00, day: 00, location: "Vienna"},
+ "Danijel",
+ "Heidelinde",
+ {name: "Anna", year:1994, month: 09, day: 21, location: "Moedling"}
+	]
 }
 
 
