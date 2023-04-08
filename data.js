@@ -1,4 +1,10 @@
+let ourTeam = {
+	name: "FEDHA",
+	members: { name: "Franzi", year: 1994, month: 05, day: 08, location: "Vienna"},
+	, "Eroll", "Danijel", "Heidelinde", "Anna"],
 
+	
+}
 
 
 // DON'T MODIFY THE CODE BELOW THIS LINE
