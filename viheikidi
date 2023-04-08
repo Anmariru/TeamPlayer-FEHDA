@@ -1,0 +1,60 @@
+let favMovies = [
+	{
+		title: "The Whole Nine Yards",
+		 year: 2000,
+		rating: 6.7,
+		discription: "Nicholas Oseransky, a dentist living in a Montreal suburb, is hated by his wife Sophie and his mother-in-law, and his father-in-law has saddled him with a mountain of debt. His only friend is his receptionist Jill, who urges him to leave his wife.",
+		director: ["Jonathan Lynn"],
+		writer: ["Mitchell Kapner"],
+		stars: ["Bruce Willis", "Matthew Perry", "Amanda Peet", "Michael Clarke Duncan", "Natasha Henstridge", "Rosanna Arquette", "Kevin Pollak", "Harland Williams"],
+		genres: ["Comedy", "Crime Black Comedy", "Romance", "Gangster Film"],
+	
+	
+	},
+	{
+		title: "Die Hard",
+		year: 1988,
+		rating: 8.2,
+		discription: "Die Hard is a 1988 American action film directed by John McTiernan. It is about a police officer who single-handedly takes up the fight against gangsters who have occupied a high-rise building. It stars Bruce Willis and Alan Rickman in the leading roles. The film is the adaptation of the 1979 book Nothing Lasts Forever, written by Roderick Thorp, which is a sequel to the 1966 novel The Detective. After the great success of the film, four sequels were produced, the last of which, Die Hard - A Good Day to Die, was released in February 2013.",
+		director: ["John McTiernan "],
+		writers: ["Jeb Stuart", "Steven E. de Souza"],
+		stars: ["Sylvester Stallone", "Richard Gere", "Clint Eastwood", "Harrison Ford", "Burt Reynolds", "Nick Nolte", "Mel Gibson",],
+		genre: ["action"],
+	},
+	{
+		title: "COCO- more alive than life",
+		year: 2017,
+		rating: 4,
+		discription: "Little Miguel has a big dream. He wants to become a successful musician, just like his grandfather Ernesto de la Cruz once was. But he left his wife back then, so music doesn't exactly have a high priority in his family. One day Miguel finds his grandfather's guitar in a chapel. When he starts to play it, a door to the underworld and to music opens for him.",
+		directors: ["Lee Unkrich", "Adrian Molina"],
+		writer: ["Lee Unkrich"],
+		stars: ["Anthony Gonzalez", "Gael García Bernal", "Benjamin Bratt", "Alanna Ubach", "Renée Victor", "Ana Ofelia Murguía", "Edward James Olmos"],
+		genres: ["computer animated"],
+	},
+	{	
+		title: "Top Gun",
+		year: 1986,
+		rating: 6.9,
+		discription: "The plot revolves around pilot Pete Mitchell (Cruise), who is transferred with his friend to an elite training school for fighter pilots called Top Gun. There, Mitchell falls in love with the instructor Charlie (Kelly McGillis). However, when his friend dies in an accident, he falls into a serious crisis.",
+		director: ["Tony Scott"],
+		writers: ["Jim Cash", "Jack Epps Jr."],
+		stars: ["Tom Cruise", "Kelly McGillis", "Val Kilmer", "Anthony Edwards", "Tom Skerritt"],
+		genre: ["action"],
+	}
+]
+let favoriteBooks = [
+    {
+        title: "Stoizismus",
+        author: "Jonas Salzgeber",
+        year: 2022,
+        isNewerThan2000: true,
+        characters: ["Luise", "Tom", "Jonas"]
+    },
+    {
+        title: "Island Life My Australia",
+        author: "Tim Winton",
+        year: 2016,
+        isNewerThan2000: false,
+        characters: ["Richard", "Tony", "William"]
+    }
+]
