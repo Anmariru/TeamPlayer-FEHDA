@@ -98,6 +98,45 @@ let ourTeam = {
         day: 21,
       },
       location: "Moedling",
+			favorites: {
+				favBooks : [
+					{title:"The Name Of The Wind", author:"Patrick Rothfuss", year:2007, isNewerThan2000:true, age:2023-2007,
+					characters:["Kvothe", "Bast", "Denna", "Taborlin"]},
+					{title:"The Atlas Six", author:"Olivie Blake", year:2020, isNewerThan2000:true, age:2023-2020,
+					characters:["Atlas", "Libby Rhodes", "Nico de Varona", "Reina Mori"]}
+				],
+				favMovies: [
+					{title:"Moana", year:2016, rating:7.6,
+					description: "A young woman uses her seafaring talents to set sail for a fairytale island. She is accompanied on her adventure by the legendary demigod Maui.",
+					directors:["Ron Clements", "John Musker"],
+					writers:["John Musker", "Ron Clements", "Chris Williams"],
+					stars: ["Moana", "Maui", "Te Fiti"], 
+					genres: ["Animation", "Fantasy", "Comedy"]},
+				
+					{title:"Burlesque", year:2010, rating:6.4,
+					description:"A small-town girl ventures to Los Angeles and finds her place in a neo-Burlesque club run by a former dancer.",
+					directors:["Steve Antin"],
+					writers:["Steve Antin"],
+					stars: ["Christina Aguilera", "Cher", "Stanley Tucci"], 
+					genres: ["Musical", "Romantic movie", "Drama"]},
+					
+					{title:"Howl's Moving Castle ", year:2004, rating:8.2,
+					description:"When an unconfident young woman is cursed by a wicked old witch and turned into an old woman, she sees her only hope of breaking the spell again in an immoderate but insecure young wizard who lives with his companions in a four-legged rambling castle.",
+					directors:["Hayao Miyazaki"],
+					writers:["Diana Wynne Jones"],
+					stars: ["Sophie Hatter", "Calcifer", "Howl"], 
+					genres: ["Anime", "Romantic movie", "Adventure"]},
+				
+				
+					{title:"Les Misérables", year:2012, rating:7.5,
+					description:"In 19th century France, Jean Valjean is hunted for decades by the ruthless policeman Javert after committing a crime. He agrees to take care of the daughter of a factory worker. This decision changes the lives of all three characters forever.",
+					directors:["Tom Hooper"],
+					writers:["William Nicholson", "Alain Boublil", "Claude-Michel Schönberg"],
+					stars: ["Hugh Jackman", "Russell Crowe", "Anne Hathaway"], 
+					genres: ["Historical fiction", "Drama", "Musical"]}
+				
+				]
+			}
     },
     {
       name: "Danijel",
