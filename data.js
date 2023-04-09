@@ -72,13 +72,73 @@ let ourTeam = {
 			}
 		},
 		{
-			name: "Eroll",
+			name: "Euron",
 			birthday: {
-				year: 1800,
-				month: 00,
-				day: 00,
+				year: 1998,
+				month: 10,
+				day: 01,
 			},
 			location: "Vienna",
+			favorites: {
+				favBooks: [
+					{
+						title: "Denke nach und werde reich",
+						author: "Napoleon Hill",
+						year: 1937,
+						isNewerThan2000: false,
+						characters: ["Napoleon"]
+					},
+					{
+						title: "Harry Potter und der Stein der Weisen",
+						author: "J.K Rowling",
+						year: 1997,
+						isNewerThan2000: false,
+						characters: ["Harry Potter","Hermine Granger","Lord Voldemort","Ron Weasley"]
+					}
+				],
+				favMovies: [
+					{
+						title: "The Godfather",
+						year: 1972,
+						rating: 9.2,
+						discription: "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son. ",
+						director: ["Francis Ford Coppola"],
+						writer: ["Mario Puzo","Francis Ford Coppola"],
+						stars: ["Marlon Brando", "Al Pacino", "Mario Puzo", "Robert Duvall", "Albert S. Rudd"],
+						genres: ["Mafia", "Crime", "Drama"]
+					},
+					{
+						title: "Harry Potter and the Philosopher's Stone",
+						year: 2003,
+						rating: 8,
+						discription: "A young orphan boy named Harry Potter who discovers that he is a wizard and is whisked away to attend Hogwarts School of Witchcraft and Wizardry. Along with his new friends Ron Weasley and Hermione Granger, Harry learns about magic, makes enemies with the evil wizard Voldemort, and uncovers the truth about his own family history.",
+						director: ["Chris Columbus"],
+						writers: ["Steve Kloves","J. K. Rowling"],
+						stars: ["Harry Potter","Hermine Granger","Lord Voldemort","Ron Weasley"],
+						genre: ["action","fantasy","magic"],
+					},
+					{
+						title: "The Godfather 2",
+						year: 1974,
+						rating: 9,
+						discription: "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+						directors: ["Francis Ford Coppola"],
+						writer: ["Mario Puzo","Francis Ford Coppola"],
+						stars: ["Marlon Brando", "Al Pacino", "Mario Puzo", "Robert Duvall", "Albert S. Rudd"],
+						genres: ["Mafia", "Crime", "Drama"],
+					},
+					{
+						title: "American Sniper",
+						year: 2014,
+						rating: 7.3,
+						discription: "Navy S.E.A.L. sniper Chris Kyle's pinpoint accuracy saves countless lives on the battlefield and turns him into a legend. Back home with his family after four tours of duty, however, Chris finds that it is the war he can't leave behind.",
+						director: ["Clint Eastwood"],
+						writers: ["Jason Hall","Chris Kyle","Scott McEwen"],
+						stars: ["Chris Kyle", "Goat-Winston", "Young Chris Kyle", "Wayne Kyle", "Deby Kyle"],
+						genre: ["Action","Biography","Drama","War"],
+					}
+				]
+			},
 		},
 		{
 			name: "Heidelinde",
