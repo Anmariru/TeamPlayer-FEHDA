@@ -28,17 +28,17 @@ let ourTeam = {
 						title: "Eragon - Das Vermächtnis des Drachenreiters",
 						author: "Christopher Paolini",
 						year: 2003,
-						isNewerThan2000: true,
+						// isNewerThan2000: true,
 						characters: ["Eragon", "Saphira", "Arya", "Brom"],
-						review: "", // TODO
+						review: "I Like It ", // TODO
 					},
 					{
 						title: "Tintenherz",
 						author: "Cornelia Funke",
 						year: 2004,
-						isNewerThan: true,
+						// isNewerThan: true,
 						characters: ["Meggie", "Mo", "Elinor", "Gwin"],
-						review: "", // TODO
+						review: "I Like It ", // TODO
 					},
 				],
 				favMovies: [
@@ -83,23 +83,23 @@ let ourTeam = {
 						genres: ["Action", "Drama", "War"],
 					},
 				],
-				favMusic: [		// TODO
-					{
-						artist: "AC/DC",
-						title: "Back in Black",
-						year: 1980,
-						genres: ["hard rock"],
-						sale: 50000000,
-					},
-				],
+// TODO				favMusic: [		
+//					{
+//						artist: "AC/DC",
+//						title: "Back in Black",
+//						year: 1980,
+//						genres: ["hard rock"],
+//						sale: 50000000,
+//					},
+//				],
 			}
 		},
 		{
-			name: "Eroll",
+			name: "Euron",
 			birthday: {
 				year: 1998,
-				month: 0,
-				day: 0,
+				month: 10,
+				day: 1,
 			},
 			location: {
 				city: "Vienna",
@@ -112,75 +112,77 @@ let ourTeam = {
 		favorites: {
 			favBooks: [
 				{
-					title: "",
-					author: "",
-					year: 1,
-					characters: ["", ""],
-					review: "",
+					title: "Denke nach und werde reich",
+					author: "Napoleon Hill",
+					year: 1937,
+					// isNewerThan2000: false,
+					characters: ["Napoleon"],
+					review: "I Like It ", // TODO
 				},
 				{
-					title: "",
-					author: "",
-					year: 2,
-					characters: ["", ""],
-					review: "I like the song because it's very energetic",
+					title: "Harry Potter und der Stein der Weisen",
+					author: "J.K Rowling",
+					year: 1997,
+					// isNewerThan2000: false,
+					characters: ["Harry Potter", "Hermine Granger", "Lord Voldemort", "Ron Weasley"],
+					review: "I Like It ", // TODO
 				},
 			],
 			favMovies: [
 				{
-					title: "",
-					year: 2,
-					rating: 7.6,
-					// TODO discription: "",
+					title: "The Godfather",
+					year: 1972,
+					rating: 9.2,
+					// TODO discription: "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
 					review: "",
-					directors: [""],
-					writers: ["", "", ""],
-					stars: ["", "", ""],
-					genres: ["Fantasy", "Horror"],
+					directors: ["Francis Ford Coppola"],
+					writers: ["Mario Puzo", "Francis Ford Coppola"],
+					stars: ["Marlon Brando", "Al Pacino", "Mario Puzo", "Robert Duvall", "Albert S. Rudd"],
+					genres: ["Mafia", "Crime", "Drama"],
 				},
 				{
-					title: "",
-					year: 1,
-					rating: 6.9,
-					// TODO discription: "",
+					title: "Harry Potter and the Philosopher's Stone",
+					year: 2003,
+					rating: 8,
+					// TODO discription: "A young orphan boy named Harry Potter who discovers that he is a wizard and is whisked away to attend Hogwarts School of Witchcraft and Wizardry. Along with his new friends Ron Weasley and Hermione Granger, Harry learns about magic, makes enemies with the evil wizard Voldemort, and uncovers the truth about his own family history.",
 					review: "",
-					directors: [""],
-					writers: ["", "", ""],
-					stars: ["H", "", ""],
-					genres: ["Action", "Comic"],
+					directors: ["Chris Columbus"],
+					writers: ["Steve Kloves", "J. K. Rowling"],
+					stars: ["Harry Potter","Hermine Granger","Lord Voldemort","Ron Weasley"],
+					genres: ["action","fantasy","magic"],
 				},
 				{
-					title: " ",
-					year: 2,
+					title: "The Godfather 2",
+					year: 1974,
+					rating: 9,
+					// TODO discription: "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
+					review: "",
+					directors: ["Francis Ford Coppola"],
+					writers: ["", "", ""],
+					stars: ["Marlon Brando", "Al Pacino", "Mario Puzo", "Robert Duvall", "Albert S. Rudd"],
+					genres: ["Mafia", "Crime", "Drama"],
+				},
+				{
+					title: "American Sniper",
+					year: 2014,
 					rating: 7.3,
-					// TODO discription: "",
+					// TODO discription: "Navy S.E.A.L. sniper Chris Kyle's pinpoint accuracy saves countless lives on the battlefield and turns him into a legend. Back home with his family after four tours of duty, however, Chris finds that it is the war he can't leave behind.",
 					review: "",
-					directors: [""],
-					writers: ["", "", ""],
-					stars: ["", "", ""],
-					genres: ["Action"],
-				},
-				{
-					title: " ",
-					year: 2010,
-					rating: 7.8,
-					// TODO discription: "",
-					review: "",
-					directors: [""],
-					writers: 8.9,
-					stars: ["", "", ""],
-					genres: ["Drama", "Romance"],
+					directors: ["Clint Eastwood"],
+					writers: ["Jason Hall","Chris Kyle","Scott McEwen"],
+					stars: ["Chris Kyle", "Goat-Winston", "Young Chris Kyle", "Wayne Kyle", "Deby Kyle"],
+					genres: ["Action","Biography","Drama","War"],
 				},
 			],
-			favMusic: [		// TODO
-					{
-						artist: "Fleetwood Mac",
-						title: "Rumours",
-						year: 1977,
-						genres: ["soft rock"],
-						sale: 40000000,
-					},
-				],
+// TODO		favMusic: [		
+//				{
+//					artist: "Fleetwood Mac",
+//					title: "Rumours",
+//					year: 1977,
+//					genres: ["soft rock"],
+//					sale: 40000000,
+//				},
+//			],
 		},
 			name: "Heidelinde",
 			birthday: {
@@ -204,7 +206,7 @@ let ourTeam = {
 						year: 2022,
 						//isNewerThan2000: true,
 						characters: ["Luise", "Tom", "Jonas"],
-						review: "", // TODO
+						review: "I like it, because it changed or open my mind and gives me new perspectives by myself.", 
 					},
 					{
 						title: "Island Life My Australia",
@@ -212,7 +214,7 @@ let ourTeam = {
 						year: 2016,
 						//isNewerThan2000: false,
 						characters: ["Richard", "Tony", "William"],
-						review: "", // TODO
+						review: "I love Australia and the story let me remind about the wounderful land and culture.",
 					}
 				],
 				favMovies: [
@@ -257,15 +259,15 @@ let ourTeam = {
 						genres: ["action"],
 					}
 				],
-				favMusic: [		// TODO
-					{
-						artist: "Whitney Houston",
-						title: "The Bodyguard",
-						year: 1992,
-						genres: ["r&b", "soul", "pop", "soundtrack"],
-						sale: 45000000,
-					},
-				],
+// TODO			favMusic: [		
+//					{
+//						artist: "Whitney Houston",
+//						title: "The Bodyguard",
+//						year: 1992,
+//						genres: ["r&b", "soul", "pop", "soundtrack"],
+//						sale: 45000000,
+//					},
+//				],
 			},
 		},
 		{
@@ -289,15 +291,19 @@ let ourTeam = {
 						title: "The Name Of The Wind",
 						author: "Patrick Rothfuss",
 						year: 2007,
-						isNewerThan2000: true,
+						// isNewerThan2000: true,
 						age: 2023 - 2007,
 						characters: ["Kvothe", "Bast", "Denna", "Taborlin"],
-						review: "", // TODO
+						review: "I Like It", // TODO
 					},
 					{
-						title: "The Atlas Six", author: "Olivie Blake", year: 2020, isNewerThan2000: true, age: 2023 - 2020,
+						title: "The Atlas Six", 
+						author: "Olivie Blake", 
+						year: 2020, 
+						// isNewerThan2000: true, 
+						age: 2023 - 2020,
 						characters: ["Atlas", "Libby Rhodes", "Nico de Varona", "Reina Mori"],
-						review: "", // TODO
+						review: "I Like It", // TODO
 					}
 				],
 				favMovies: [
@@ -342,15 +348,15 @@ let ourTeam = {
 						genres: ["Historical fiction", "Drama", "Musical"]
 					},
 				],
-				favMusic: [
-					{
-						artist: "Shania Twain",
-						title: "Come On Over",
-						year: 1997,
-						genres: ["country", "pop"],
-						sale: 40000000,
-					},
-				],
+// TODO			favMusic: [
+//					{
+//						artist: "Shania Twain",
+//						title: "Come On Over",
+//						year: 1997,
+//						genres: ["country", "pop"],
+//						sale: 40000000,
+//					},
+//				],
 			},
 		},
 		{
@@ -375,14 +381,13 @@ let ourTeam = {
 						author: "JK Rowling",
 						year: 1997,
 						characters: ["Harry Potter", "Ron Weasley"],
-						review: "I like the song because it's very energetic",
-					},
+						review: "I Like It ", // TODO
 					{
 						title: "Vom Junkie zum YouTuber",
 						author: "MontanaBlack",
 						year: 2019,
 						characters: ["Monte", "MontanaBlack88"],
-						review: "I like the song because it's very energetic",
+						review: "I Like It ", // TODO
 					},
 				],
 				favMovies: [
@@ -437,7 +442,7 @@ let ourTeam = {
 };
 
 
-//average Age // TODO
+//average Age 
 let totalAge = 0;
 for (const member of ourTeam.members) {
 	totalAge += (2023 - member.birthday.year)
@@ -455,7 +460,7 @@ for (const member of ourTeam.members) {
 let averageCodingLevel = totalCodingLevel / ourTeam.members.length;
 console.log(averageCodingLevel);
 
-// The youngest member //TODO
+// The youngest member 
 let youngestMember = ourTeam.members[0];
 for (const member of ourTeam.members) {
 	if (member.birthday.year > youngestMember.birthday.year) {
@@ -465,7 +470,7 @@ for (const member of ourTeam.members) {
 
 console.log(youngestMember.name);
 
-// The oldest member //TODO
+// The oldest member 
 let oldestMember = ourTeam.members[0];
 for (const member of ourTeam.members) {
 	if (member.birthday.year < oldestMember.birthday.year) {
@@ -488,8 +493,8 @@ for (const member of ourTeam.members) {
 }
 console.log(locations);
 
-//Common music styles
-let commonMusicGenres = {}
+//Common music styles // ToDo
+/*let commonMusicGenres = {}
 
 for (const member of ourTeam.members) {
 
@@ -511,8 +516,9 @@ for (const member of ourTeam.members) {
 
 }
 console.log(commonMusicGenres);
+*/
 
-//Common movie styles  -- extra TODO
+//Common movie styles  
 let commonMoviesGenres = {}
 
 for (const member of ourTeam.members) {
