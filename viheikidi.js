@@ -382,6 +382,7 @@ let ourTeam = {
 						year: 1997,
 						characters: ["Harry Potter", "Ron Weasley"],
 						review: "I Like It ", // TODO
+					},
 					{
 						title: "Vom Junkie zum YouTuber",
 						author: "MontanaBlack",
