@@ -188,7 +188,7 @@ let ourTeam = {
 						//TASK: remove isNewer than of books
             //TASK: remove age of books
 						characters: ["Luise", "Tom", "Jonas"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "I like it, because it changed or open my mind and gives me new perspectives by myself."//TASK
 					},
 					{
 						title: "Island Life My Australia",
@@ -197,7 +197,7 @@ let ourTeam = {
 						//TASK: remove isNewer than of books
             //TASK: remove age of books
 						characters: ["Richard", "Tony", "William"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "I love Australia and the story let me remind about the wounderful land and culture."//TASK
 					}
 				],
 				favMovies: [
@@ -210,7 +210,7 @@ let ourTeam = {
 						writer: ["Mitchell Kapner"],
 						stars: ["Bruce Willis", "Matthew Perry", "Amanda Peet", "Michael Clarke Duncan", "Natasha Henstridge", "Rosanna Arquette", "Kevin Pollak", "Harland Williams"],
 						genres: ["Comedy", "Crime Black Comedy", "Romance", "Gangster Film"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "I like the mix of stars in the movie and it's very fun." //TASK
 					},
 					{
 						title: "Die Hard",
@@ -221,7 +221,7 @@ let ourTeam = {
 						writers: ["Jeb Stuart", "Steven E. de Souza"],
 						stars: ["Sylvester Stallone", "Richard Gere", "Clint Eastwood", "Harrison Ford", "Burt Reynolds", "Nick Nolte", "Mel Gibson",],
 						genres: ["action"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "I like it, because there are fantastic stars in it and it is a thrilling movie."//TASK
 					},
 					{
 						title: "COCO- more alive than life",
@@ -252,8 +252,8 @@ let ourTeam = {
         seniority: "Junior"
       },
 			colors: {
-        primary: {red: 102, green: 255, blue: 204}, //mint
-        secondary: {red: 102, green: 0, blue: 102} //magenta
+        primary: { red: 255, green: 235, blue: 205 }, //moccasin
+        secondary: { red: 47, green: 79, blue: 79  //petrol
       }
 		},
 
