@@ -451,4 +451,4 @@ let commonGenres = {}
 for (let genresOfMembers of ourTeam.members) {
 	for (let movieOfMembers of genresOfMembers.favorites.favMovies) {
 		for (let movieGenre of movieOfMembers.genres) {
-			
+		}}}
