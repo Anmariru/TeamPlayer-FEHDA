@@ -9,7 +9,7 @@ let ourTeam = {
 				day: 08,
 			},
 			location: "Vienna",
-			favourites: {
+			favorites: {
 				favBooks: [
 					{
 						title: "Eragon - Das Vermächtnis des Drachenreiters",
@@ -35,7 +35,7 @@ let ourTeam = {
 						directors: ["Hayao Miyazaki"],
 						writers: ["Hayao Miyazaki"],
 						stars: ["Hitoshi Takagi", "Noriko Hidaka", "Chika Sakamoto"],
-						genre: ["Fantasy", "Comedy", "Family"],
+						genres: ["Fantasy", "Comedy", "Family"],
 					},
 					{
 						title: "Naruto",
@@ -45,7 +45,7 @@ let ourTeam = {
 						directors: ["Osamu Kobayashi"],
 						writers: ["Masashi Kishimoto", "Chie Nakamura"],
 						stars: ["Junko Takeuchi", "Chie Nakamura", "Kazuhiko Inoue"],
-						genre: ["Adventure", "Animation	", "Action"],
+						genres: ["Adventure", "Animation	", "Action"],
 					},
 					{
 						title: "The dark Knight rises",
@@ -55,7 +55,7 @@ let ourTeam = {
 						directors: ["Christopher Nolan"],
 						writers: ["Jonathan Nolan", "Christopher Nolan", "David S. Goyer"],
 						stars: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
-						genre: ["Action", "Crime", "Drama"],
+						genres: ["Action", "Crime", "Drama"],
 					},
 					{
 						title: "Inglorious Basterds",
@@ -65,7 +65,7 @@ let ourTeam = {
 						directors: ["Quentin Tarantino"],
 						writers: ["Quentin Tarantino"],
 						stars: ["Brad Pitt", "Diane Kruger", "Melanie Laurent"],
-						genre: ["Action", "Drama", "War"],
+						genres: ["Action", "Drama", "War"],
 					}
 
 				]
@@ -115,7 +115,7 @@ let ourTeam = {
 						director: ["Chris Columbus"],
 						writers: ["Steve Kloves","J. K. Rowling"],
 						stars: ["Harry Potter","Hermine Granger","Lord Voldemort","Ron Weasley"],
-						genre: ["action","fantasy","magic"],
+						genres: ["action","fantasy","magic"],
 					},
 					{
 						title: "The Godfather 2",
@@ -135,7 +135,7 @@ let ourTeam = {
 						director: ["Clint Eastwood"],
 						writers: ["Jason Hall","Chris Kyle","Scott McEwen"],
 						stars: ["Chris Kyle", "Goat-Winston", "Young Chris Kyle", "Wayne Kyle", "Deby Kyle"],
-						genre: ["Action","Biography","Drama","War"],
+						genres: ["Action","Biography","Drama","War"],
 					}
 				]
 			},
@@ -184,7 +184,7 @@ let ourTeam = {
 						director: ["John McTiernan "],
 						writers: ["Jeb Stuart", "Steven E. de Souza"],
 						stars: ["Sylvester Stallone", "Richard Gere", "Clint Eastwood", "Harrison Ford", "Burt Reynolds", "Nick Nolte", "Mel Gibson",],
-						genre: ["action"],
+						genres: ["action"],
 					},
 					{
 						title: "COCO- more alive than life",
@@ -204,7 +204,7 @@ let ourTeam = {
 						director: ["Tony Scott"],
 						writers: ["Jim Cash", "Jack Epps Jr."],
 						stars: ["Tom Cruise", "Kelly McGillis", "Val Kilmer", "Anthony Edwards", "Tom Skerritt"],
-						genre: ["action"],
+						genres: ["action"],
 					}
 				]
 			},
@@ -358,3 +358,6 @@ try {
 }
 
 export { toExport };
+
+
+
