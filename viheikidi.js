@@ -261,7 +261,7 @@ let ourTeam = {
 						year: 2000,
 						rating: 6.7,
 						// TODO discription: "Nicholas Oseransky, a dentist living in a Montreal suburb, is hated by his wife Sophie and his mother-in-law, and his father-in-law has saddled him with a mountain of debt. His only friend is his receptionist Jill, who urges him to leave his wife.",
-						review: "I like the mix of stars in the movie and it's very fun. ",
+						review: "I like the mix of stars in the movie and it's very fun.",
 						director: ["Jonathan Lynn"],
 						writer: ["Mitchell Kapner"],
 						stars: ["Bruce Willis", "Matthew Perry", "Amanda Peet", "Michael Clarke Duncan", "Natasha Henstridge", "Rosanna Arquette", "Kevin Pollak", "Harland Williams"],
