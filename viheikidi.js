@@ -544,16 +544,16 @@ console.log(oldestMember.name);
 
 //From the same location?
 
-let locations = {}
+let location = {}
 
 for (const member of ourTeam.members) {
-	if (member.location.city in locations) {
-		locations[member.location.city] = locations[member.location.city] + ", " + member.name
+	if (member.location.city in location) {
+		location[member.location.city] = location[member.location.city] + ", " + member.name
 	} else {
-		locations[member.location.city] = member.name
+		location[member.location.city] = member.name
 	}
 }
-console.log(locations);
+console.log(location);
 
 //Common music styles // ToDo
 /*let commonMusicGenres = {}
@@ -582,21 +582,21 @@ console.log(commonMusicGenres);
 
 //Common movie styles  
 
-let commonMoviesGenres = {}
+let commonGenres = {}
 
 for (const member of ourTeam.members) {
 	for (const movie of member.favorites.favMovies) {
 		for (const movieGenre of movie.genres) {
-			if (movieGenre in commonMoviesGenres) {
-				commonMoviesGenres[movieGenre] = commonMoviesGenres[movieGenre] + ", " + member.name
+			if (movieGenre in commonGenres) {
+				commonGenres[movieGenre] = commonGenres[movieGenre] + ", " + member.name;
 			} else {
-				commonMoviesGenres[movieGenre] = member.name;
+				commonGenres[movieGenre] = member.name.length;
 			}
 		}
 
 	}
 }
-console.log(commonMoviesGenres);
+console.log(commonGenres);
 
 // DON'T MODIFY THE CODE BELOW THIS LINE
 
@@ -610,7 +610,7 @@ try {
 		{ name: "averageCodingLevel", content: averageCodingLevel, type: "number" },
 		{ name: "youngestMember", content: youngestMember, type: "string" },
 		{ name: "oldestMember", content: oldestMember, type: "string" },
-		{ name: "location", content: locations, type: "object" },
+		{ name: "location", content: location, type: "object" },
 		{ name: "commonGenres", content: commonGenres, type: "object" },
 	];
 } catch (error) {
