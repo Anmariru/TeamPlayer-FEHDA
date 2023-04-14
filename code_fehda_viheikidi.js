@@ -77,7 +77,7 @@ let ourTeam = {
 						directors: ["Osamu Kobayashi"],
 						writers: ["Masashi Kishimoto", "Chie Nakamura"],
 						stars: ["Junko Takeuchi", "Chie Nakamura", "Kazuhiko Inoue"],
-						genres: ["Adventure", "Animation	", "Action"],
+						genres: ["Adventure", "Animation", "Action"],
 					},
 					{
 						title: "The dark Knight rises",
@@ -276,7 +276,7 @@ let ourTeam = {
 						director: ["John McTiernan "],
 						writers: ["Jeb Stuart", "Steven E. de Souza"],
 						stars: ["Sylvester Stallone", "Richard Gere", "Clint Eastwood", "Harrison Ford", "Burt Reynolds", "Nick Nolte", "Mel Gibson",],
-						genres: ["action"],
+						genres: ["action"]
 					},
 					{
 						title: "COCO- more alive than life",
@@ -287,7 +287,7 @@ let ourTeam = {
 						directors: ["Lee Unkrich", "Adrian Molina"],
 						writer: ["Lee Unkrich"],
 						stars: ["Anthony Gonzalez", "Gael García Bernal", "Benjamin Bratt", "Alanna Ubach", "Renée Victor", "Ana Ofelia Murguía", "Edward James Olmos"],
-						genres: ["computer animated"],
+						genres: ["computer animated"]
 					},
 					{
 						title: "Top Gun",
@@ -298,8 +298,8 @@ let ourTeam = {
 						director: ["Tony Scott"],
 						writers: ["Jim Cash", "Jack Epps Jr."],
 						stars: ["Tom Cruise", "Kelly McGillis", "Val Kilmer", "Anthony Edwards", "Tom Skerritt"],
-						genres: ["action"],
-					}
+						genres: ["action"]
+					},
 				],
 // TODO			favMusic: [		
 //					{						
@@ -462,7 +462,7 @@ let ourTeam = {
 						directors: ["Chris columbus"],
 						writers: ["Stuard Craig", "Neil lamont", "Lucianda Thomson"],
 						stars: ["Harry Potter", "Hermione Granger", "Ron Weasley"],
-						genres: ["Fantasy", "Horror"],
+						genres: ["Fantasy", "Horror"]
 					},
 					{
 						title: "Harry potter und der Feuerkelch",
@@ -473,7 +473,7 @@ let ourTeam = {
 						directors: ["Mike Newell"],
 						writers: ["Alan gilmore", "Neil Lamont", "FilmFlex"],
 						stars: ["Harry potter", "Hermione Granger", "Ron Weasley"],
-						genres: ["Fantasy", "Horror"],
+						genres: ["Fantasy", "Horror"]
 					},
 					{
 						title: "Harry potter und der Halbblutprinz ",
@@ -484,7 +484,7 @@ let ourTeam = {
 						directors: ["Mike Newell"],
 						writers: ["Alan gilmore", "Neil Lamont", "Filmlex"],
 						stars: ["Harry Potter", "Hermione Granger", "Ron weasley"],
-						genres: ["fantasy", "Horror"],
+						genres: ["fantasy", "Horror"]
 					},
 					{
 						title: "Harry potter und die Heiligtümer des Todes Teil 1 ",
@@ -523,24 +523,26 @@ let averageCodingLevel = totalCodingLevel / ourTeam.members.length;
 console.log(averageCodingLevel);
 
 // The youngest member 
-let youngestMember = ourTeam.members[0];
+let tempYoungestMember = ourTeam.members[0];
 for (const member of ourTeam.members) {
-	if (member.birthday.year > youngestMember.birthday.year) {
-		youngestMember = member;
+	if (member.birthday.year > tempYoungestMember.birthday.year) {
+		tempYoungestMember = member;
 	}
 }
+let youngestMember = tempYoungestMember.name;
 
-console.log(youngestMember.name);
+//console.log(youngestMember.name);
 
 // The oldest member 
-let oldestMember = ourTeam.members[0];
+let tempOldestMember = ourTeam.members[0];
 for (const member of ourTeam.members) {
-	if (member.birthday.year < oldestMember.birthday.year) {
-		oldestMember = member;
+	if (member.birthday.year < tempOldestMember.birthday.year) {
+		tempOldestMember = member;
 	}
 }
+let oldestMember = tempOldestMember.name;
 
-console.log(oldestMember.name);
+console.log(oldestMember);
 
 //From the same location?
 
@@ -588,12 +590,11 @@ for (const member of ourTeam.members) {
 	for (const movie of member.favorites.favMovies) {
 		for (const movieGenre of movie.genres) {
 			if (movieGenre in commonGenres) {
-				commonGenres[movieGenre] = commonGenres[movieGenre] + ", " + member.name;
+				commonGenres[movieGenre] += 1;
 			} else {
-				commonGenres[movieGenre] = member.name.length;
+				commonGenres[movieGenre] = 1;
 			}
 		}
-
 	}
 }
 console.log(commonGenres);
