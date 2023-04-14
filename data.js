@@ -182,7 +182,7 @@ let ourTeam = {
 			birthday: {
 				year: 1980,
 				month: 11,
-				day: 24,
+				day: 26,
 			},
 			location:{         
 				country : "Austria",         
@@ -195,18 +195,18 @@ let ourTeam = {
 						author: "Jonas Salzgeber",
 						year: 2022,
 						//TASK: remove isNewer than of books
-            //TASK: remove age of books
+            			//TASK: remove age of books
 						characters: ["Luise", "Tom", "Jonas"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            			review: "I like it, because it changed or open my mind and gives me new perspectives by myself."//TASK
 					},
 					{
 						title: "Island Life My Australia",
 						author: "Tim Winton",
 						year: 2016,
 						//TASK: remove isNewer than of books
-            //TASK: remove age of books
+            			//TASK: remove age of books
 						characters: ["Richard", "Tony", "William"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            			review: "I love Australia and the story let me remind about the wounderful land and culture."//TASK
 					}
 				],
 				favMovies: [
@@ -219,7 +219,7 @@ let ourTeam = {
 						writer: ["Mitchell Kapner"],
 						stars: ["Bruce Willis", "Matthew Perry", "Amanda Peet", "Michael Clarke Duncan", "Natasha Henstridge", "Rosanna Arquette", "Kevin Pollak", "Harland Williams"],
 						genres: ["Comedy", "Crime-Black-Comedy", "Romance", "Gangster-Film"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            			review: "I like the mix of stars in the movie and it's very fun."//TASK
 					},
 					{
 						title: "Die Hard",
@@ -230,7 +230,7 @@ let ourTeam = {
 						writers: ["Jeb Stuart", "Steven E. de Souza"],
 						stars: ["Sylvester Stallone", "Richard Gere", "Clint Eastwood", "Harrison Ford", "Burt Reynolds", "Nick Nolte", "Mel Gibson",],
 						genres: ["Action"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            			review: "I like it, because there are fantastic stars in it and it is a thrilling movie "//TASK
 					},
 					{
 						title: "COCO- more alive than life",
@@ -241,7 +241,7 @@ let ourTeam = {
 						writer: ["Lee Unkrich"],
 						stars: ["Anthony Gonzalez", "Gael García Bernal", "Benjamin Bratt", "Alanna Ubach", "Renée Victor", "Ana Ofelia Murguía", "Edward James Olmos"],
 						genres: ["Computer-Animated"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            			review: "I like it, because it is a very good animation movie with a sweet heart story"//TASK
 					},
 					{
 						title: "Top Gun",
@@ -252,18 +252,18 @@ let ourTeam = {
 						writers: ["Jim Cash", "Jack Epps Jr."],
 						stars: ["Tom Cruise", "Kelly McGillis", "Val Kilmer", "Anthony Edwards", "Tom Skerritt"],
 						genres: ["Action"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            			review: "I like the mix between the aircraft, sunny boys and lovestorys in one movie."//TASK
 					}
 				]
 			},
-      codingLevel: { //TASK
-        level: 1,
-        seniority: "Junior"
-      },
+      		codingLevel: { //TASK
+        		level: 1,
+        		seniority: "Junior"
+      		},
 			colors: {
-        primary: {red: 102, green: 255, blue: 204}, //mint
-        secondary: {red: 102, green: 0, blue: 102} //magenta
-      }
+        		primary: {red: 234, green: 241, blue: 213 }, //moccasin
+        		secondary: {red: 0, green: 171, blue: 158 } //petrol
+      		}
 		},
 
 		{
