@@ -21,7 +21,7 @@ let ourTeam = {
 						//TASK: remove isNewer than of books
             //TASK: remove age of books
 						characters: ["Eragon", "Saphira", "Arya", "Brom"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "Eragon is a story unlike every other stories about magic, dragons, elfes, dwarfs and humans fighting about pure power and evil."//TASK
 					},
 					{
 						title: "Tintenherz",
@@ -30,7 +30,7 @@ let ourTeam = {
 						//TASK: remove isNewer than of books
             //TASK: remove age of books
 						characters: ["Meggie", "Mo", "Elinor", "Gwin"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "the story and idea behind this book-series is so unique, I never read a book like this ever again. It caught me from page 1 until the very end."//TASK
 					},
 				],
 				favMovies: [
@@ -43,7 +43,7 @@ let ourTeam = {
 						writers: ["Hayao Miyazaki"],
 						stars: ["Hitoshi Takagi", "Noriko Hidaka", "Chika Sakamoto"],
 						genres: ["Fantasy", "Comedy", "Family"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "This movie combines the power of imagination, family and the magic of the spirits in Japan in a calm and hypnotizing way."//TASK
 					},
 					{
 						title: "Naruto",
@@ -54,7 +54,7 @@ let ourTeam = {
 						writers: ["Masashi Kishimoto", "Chie Nakamura"],
 						stars: ["Junko Takeuchi", "Chie Nakamura", "Kazuhiko Inoue"],
 						genres: ["Adventure", "Animation", "Action"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "This serie made me laugh, made me cry and showed me, what true love to your younger brother can be. (And since i have a younger sister, i realy felt that on a different level.)"//TASK
 					},
 					{
 						title: "The dark Knight rises",
@@ -65,7 +65,7 @@ let ourTeam = {
 						writers: ["Jonathan Nolan", "Christopher Nolan", "David S. Goyer"],
 						stars: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
 						genres: ["Action", "Crime", "Drama"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "Its an emotional, intense and truly great movie with an absolutly great vilian, so far one of the best Batman-movies."//TASK
 					},
 					{
 						title: "Inglorious Basterds",
@@ -76,12 +76,12 @@ let ourTeam = {
 						writers: ["Quentin Tarantino"],
 						stars: ["Brad Pitt", "Diane Kruger", "Melanie Laurent"],
 						genres: ["Action", "Drama", "War"],
-            review: "each member must write why they like that book, movie, or song and why they recommend it"//TASK
+            review: "This movie is entertaining written in the Style of Quentin Tarantino. If you like his style, give this movie a try."//TASK
 					}
 				]
 			},
       codingLevel: { //TASK
-        level: 8,
+        level: 7,
         seniority: "Junior"
       },
       colors: {
