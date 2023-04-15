@@ -85,8 +85,8 @@ let ourTeam = {
         seniority: "Junior"
       },
       colors: {
-        primary: {red: 153, green: 153, blue: 255}, //lavender
-        secondary: {red: 153, green: 51, blue: 0} //chartreuse
+        primary: { red: 240, green: 248, blue: 255 }, //#F0F8FF
+				secondary: { red: 25, green: 25, blue: 112 }, //#191970
       }
 		},
 		{
