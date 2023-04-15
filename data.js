@@ -474,10 +474,10 @@ let oldestMember = ourTeam.members[0].birthday.year;
 let youngestMember = ourTeam.members[0].birthday.year;
 
 for (let i = 0; i < ourTeam.members.length; i++){
-	if (youngestMember <= ourTeam.members[i].birthday.year){
+	if (youngestMember < ourTeam.members[i].birthday.year){
 		youngestMember = ourTeam.members[i].name;
 	}
-	else if (oldestMember >= ourTeam.members[i].birthday.year){
+	else if (oldestMember > ourTeam.members[i].birthday.year){
 		oldestMember = ourTeam.members[i].name;
 	}
 } //console.log ( "The youngest member is :",youngestMember) //console.log ("The oldest member is: ",oldestmember)
